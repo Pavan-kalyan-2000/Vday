@@ -39,7 +39,7 @@ body {
 
 .btn-group {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     gap: 15px;
 }
 
@@ -60,6 +60,7 @@ button:focus {
 .yes-btn {
     background-color: #4caf50;
     color: white;
+    justify-self: flex-start;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -72,6 +73,7 @@ button:focus {
     position: absolute;
     background-color: #ff4d4d;
     color: white;
+    justify-self: anchor-center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
